@@ -1,0 +1,34 @@
+
+@media screen and (max-width: 500px){
+
+
+.container_areca_palm_popup, .container_betel_leaf_popup, .container_stromanthe_triostar_popup, 
+.container_jade_popup,.container_lucky_bamboo_popup, .container_dracena_compacta_popup,
+.container_thuja_popup,.container_fan_palm_popup, .container_holy_basil_popup, .container_croton_popup
+{padding: 10px 10px;}
+
+
+.body_areca_palm_popup, .body_betel_leaf_popup, .body_stromanthe_triostar_popup, .body_jade_popup, .body_lucky_bamboo_popup,
+.body_dracena_compacta_popup, .body_thuja_popup, .body_fan_palm_popup, .body_holy_basil_popup, .body_croton_popup
+{height: 80%; width: 470; margin: 0;   }
+
+
+.inside_body_areca_palm_popup,.inside_body_betel_leaf_popup, .inside_body_stromanthe_triostar_popup,.inside_body_jade_popup,
+.inside_body_lucky_bamboo_popup,.inside_body_dracena_compacta_popup,.inside_body_thuja_popup, .inside_body_fan_palm_popup,
+.inside_body_holy_basil_popup, .inside_body_croton_popup
+{display: flex; flex-direction: column; padding: 0; margin: 0; overflow: auto;}
+.inside_body_areca_palm_popup img,.inside_body_betel_leaf_popup img, .inside_body_stromanthe_triostar_popup img,
+.inside_body_jade_popup img,.inside_body_lucky_bamboo_popup img,.inside_body_dracena_compacta_popup img,
+.inside_body_thuja_popup img, .inside_body_fan_palm_popup img, .inside_body_holy_basil_popup img, .inside_body_croton_popup img
+{ padding: 10px; width: 90%; height: 70%; }
+
+.inside_body_areca_palm_popup p, .inside_body_betel_leaf_popup p, .inside_body_stromanthe_triostar_popup p,
+.inside_body_jade_popup p,.inside_body_lucky_bamboo_popup p,.inside_body_dracena_compacta_popup p,
+.inside_body_thuja_popup p,.inside_body_fan_palm_popup p, .inside_body_holy_basil_popup p,.inside_body_croton_popup p
+{ font-size: 10px; word-spacing: 2px; letter-spacing: 2px;  text-align: justify; font-weight:590; width: 90%; height: 70%}
+.diy_inside{display: flex; flex-direction: column;}
+.diy_inside iframe{width: 90%; }
+
+.footer{font-size: 10px; marks: 0px}
+.footer a{padding: 0px; font-size: 10px; }
+}

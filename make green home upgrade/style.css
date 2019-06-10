@@ -1,0 +1,140 @@
+body { font-family: 'Paprika', cursive;  }
+
+
+/* Add a red background color to navbar links on hover */
+ #hover-green a:hover {
+  background-color: #419a1c;
+   transition: 0.5s;
+   color: white;
+}
+
+#hover-green li{padding: 5px;}
+
+.ieffect img {transition: 1s;}
+.ieffect img:hover {transform: scale(1.4); color: red;}
+
+
+.indoor-container h3{ text-align: center; font-family: 'Paprika', cursive;}
+.indoor-body{display: flex; flex-wrap: wrap; justify-content: center;  font-family: 'Paprika', cursive;}
+
+.indoor-body>div{ padding: 12px;  margin: 10px; border: 2px dotted #001f3f; text-align: center;}
+.indoor-body img{ width:300px; height: 250px; transition: 1s;}
+.indoor-body img:hover{opacity: .9; transform: scale(1.1);  }
+
+.container_areca_palm_popup, .container_betel_leaf_popup, .container_stromanthe_triostar_popup, 
+.container_jade_popup,.container_lucky_bamboo_popup, .container_dracena_compacta_popup,
+.container_thuja_popup,.container_fan_palm_popup, .container_holy_basil_popup, .container_croton_popup
+{
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 100; /* Sit on top */
+  padding: 100px 50px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  background-color: rgb(0,0,0); ; /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.body_areca_palm_popup, .body_betel_leaf_popup, .body_stromanthe_triostar_popup, .body_jade_popup, .body_lucky_bamboo_popup,
+.body_dracena_compacta_popup, .body_thuja_popup, .body_fan_palm_popup, .body_holy_basil_popup, .body_croton_popup
+{
+  background-color: white;
+  margin: auto;
+  padding: 20px;
+  border: 2px solid black;
+  width: 80%;
+  height: 100%;
+  overflow: auto;
+}
+
+/* The Close Button */
+.close_areca_palm_popup,.close_betel_leaf_popup, .close_stromanthe_triostar_popup, .close_jade_popup,.close_lucky_bamboo_popup,
+ .close_dracena_compacta_popup, .close_thuja_popup, .close_fan_palm_popup, .close_holy_basil_popup, .close_croton_popup
+ {
+  color: black;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close_areca_palm_popup:hover, .close_areca_palm_popup:focus, 
+.close_betel_leaf_popup:hover,.close_betel_leaf_popup:focus,
+.close_stromanthe_triostar_popup:hover, .close_stromanthe_triostar_popup:focus, 
+.close_jade_popup:hover, .close_jade_popup:focus,
+.close_lucky_bamboo_popup:hover, .close_lucky_bamboo_popup:focus,
+.close_dracena_compacta_popup:hover, .close_dracena_compacta_popup:focus,
+.close_thuja_popup:hover, .close_thuja_popup:focus,
+.close_fan_palm_popup:hover, .close_fan_palm_popup:focus,
+.close_holy_basil_popup:hover, .close_holy_basil_popup:focus,
+.close_croton_popup:hover, .close_croton_popup:focus
+{
+  color: red;
+  text-decoration: none;
+  cursor: pointer;
+}
+.inside_body_areca_palm_popup,.inside_body_betel_leaf_popup, .inside_body_stromanthe_triostar_popup,.inside_body_jade_popup,
+.inside_body_lucky_bamboo_popup,.inside_body_dracena_compacta_popup,.inside_body_thuja_popup, .inside_body_fan_palm_popup,
+.inside_body_holy_basil_popup, .inside_body_croton_popup
+{display: flex;  font-family: 'Paprika', cursive;   }
+.inside_body_areca_palm_popup >div,.inside_body_betel_leaf_popup>div, .inside_body_stromanthe_triostar_popup>div,
+.inside_body_jade_popup>div,.inside_body_lucky_bamboo_popup>div,.inside_body_dracena_compacta_popup>div,
+.inside_body_thuja_popup>div, .inside_body_fan_palm_popup>div, .inside_body_holy_basil_popup>div, .inside_body_croton_popup>div
+{ padding: 10px; width: 100%; height: 100%; }
+.inside_body_areca_palm_popup p, .inside_body_betel_leaf_popup p, .inside_body_stromanthe_triostar_popup p,
+.inside_body_jade_popup p,.inside_body_lucky_bamboo_popup p,.inside_body_dracena_compacta_popup p,
+.inside_body_thuja_popup p,.inside_body_fan_palm_popup p, .inside_body_holy_basil_popup p,.inside_body_croton_popup p
+{ font-size: 12px; word-spacing: 2px; letter-spacing: 2px;  text-align: justify; font-weight:590;}
+
+
+/*OUTDOOR PLANTS*/
+.outdoor-container h3{ text-align: center; font-family: 'Paprika', cursive;}
+.outdoor-body{display: flex; flex-wrap: wrap;justify-content: center; font-size: 13px; font-family: 'Paprika', cursive;}
+.outdoor-body>div{ padding: 12px;  margin: 10px; border: 2px dotted #001f3f; text-align: center;}
+.outdoor-body img{ width:300px; height: 250px; transition: 1s;}
+.outdoor-body img:hover{opacity: .9; transform: scale(1.1);  }
+
+
+#amazon-buy a{ text-decoration: none; border: 1px solid black; padding:2px 5px; background-color: #419a1c; color: white; font-size: 16px;
+              letter-spacing: 2px; }
+#amazon-buy a:hover{color: blue;}
+ 
+
+ .diy_body  { ext-align: center;  }          
+.diy_inside{display: flex; flex-wrap: wrap; text-align: center; }
+.diy1 {flex:1 ; }
+.diy2 {flex: 1;}
+.diy3{flex: 1;}
+
+
+
+
+.footer{background-color: #419a1c; color:white; width: 100%; border: 1px solid white;
+         font-size: 12px;  padding-left: 20px; box-shadow: 1px 1px 1px 0px white}
+.footer a{  text-decoration: none; color: white; font-size: 12px; margin-left: 50px; }
+.footer a:hover{color: black;}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 4px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  
+ }
+
+
+  
+
+
+
+
+
+ 
+
+
